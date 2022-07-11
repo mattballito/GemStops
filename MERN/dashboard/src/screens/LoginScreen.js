@@ -40,7 +40,7 @@ const Login = ({ history }) => {
             <div className="mb-3">
               <input
                 className="form-control"
-                placeholder="Email"
+                placeholder="User: admin@example.com"
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -49,7 +49,7 @@ const Login = ({ history }) => {
             <div className="mb-3">
               <input
                 className="form-control"
-                placeholder="Password"
+                placeholder="Password: 123456"
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
@@ -58,7 +58,7 @@ const Login = ({ history }) => {
 
             <div className="mb-4">
               <button type="submit" className="btn btn-primary w-100">
-                Login
+                Login Admin Dashboard
               </button>
             </div>
           </form>
